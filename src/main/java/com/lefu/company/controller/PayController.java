@@ -29,5 +29,9 @@ public class PayController {
 		}
 		return res;
 	}
+	@RequestMapping("/test1")
+	public String test1(){
+		return "test1"; 
+	}
 
 }
